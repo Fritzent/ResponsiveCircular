@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: tahoma;
+}
+.land-conten{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+}
+.land-conten h1{
+    color: white;
+    font-size: 50px;
+}
+.land-conten h2{
+    color: white;
+    font-size: 18px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/fornite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+@font-face{
+    font-family: gamerFont;
+    src: url('../font/Quantico-Regular.ttf');
+}
+.nameTitlePage{
+    font-family: gamerFont;
+    letter-spacing: 8px;
+    text-shadow: white 16%;
+}
+.textTitlePage{
+    font-family: gamerFont;
+    letter-spacing: 4px;
+}
+.sideTitlePage{
+    font-family: gamersFont;
+    letter-spacing: 1px;
+    color: #91599E;
+    margin-bottom: 15px;
+    margin-left: 3%;
+    text-shadow: #91599E 20%;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 45px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 45px;
+}
+.main-nav a{
+    font-family: gamerFont;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn-regis{
+    margin-left: 45px;
+}
+.main-nav li a:hover{
+    color: #FC8E06;
+    border-bottom: 2px solid #FC8E06;
+    transition: all 0.3s ease-in;
+    padding: 5px 0;
+}
+.webname h1{
+    color: white;
+    font-size: 20px;
+    font-family: gamersFont;
+    margin-top: 45px;
+    float: left;
+    transform: translate(-80%,0%);
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px; 
+    color: #232226;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.btn-start{
+    background-color: white;
+    font-family: gamersFont;
+    font-size: 20px;
+    box-shadow: white 18%;
+    font-style: normal;
+}
+.button-jor{
+    margin-top: 50px;
+}
+.btn-start:hover{
+    background-color: white;
+    color: #5D4A81;
+    transition: all 0.3s ease-in;
+}
+.btn-regis:hover{
+    background-color: white;
+    color: #5D4A81;
+    transition: all 0.3s ease-in;
+}
